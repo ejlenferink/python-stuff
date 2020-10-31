@@ -1,0 +1,41 @@
+backend      : TkAgg
+
+lines.linewidth   : 1.     # line width in points
+
+patch.linewidth        : 0.666667        # edge width in points.
+
+font.family         : serif
+text.usetex         : True  # use latex for all text handling. The following fonts
+                              # are supported through the usual rc parameter settings:
+                              # new century schoolbook, bookman, times, palatino,
+                              # zapf chancery, charter, serif, sans-serif, helvetica,
+                              # avant garde, courier, monospace, computer modern roman,
+                              # computer modern sans serif, computer modern typewriter
+                              # If another font is desired which can loaded using the
+                              # LaTeX \usepackage command, please inquire at the
+                              # matplotlib mailing list
+
+axes.linewidth      : 0.666667     # edge linewidth
+axes.titlesize      : 11   # fontsize of the axes title
+axes.labelsize      : 11  # fontsize of the x any y labels
+axes.prop_cycle    : cycler('color', 'bgrcmyk')
+
+xtick.major.size     : 2.5      # major tick size in points
+xtick.major.width    : 0.666667    # major tick width in points
+xtick.labelsize      : 9 # fontsize of the tick labels
+xtick.direction      : in    # direction: in, out, or inout
+
+ytick.major.size     : 2.5      # major tick size in points
+ytick.major.width    : 0.666667    # major tick width in points
+ytick.labelsize      : 9 # fontsize of the tick labels
+ytick.direction      : in    # direction: in, out, or inout
+
+legend.framealpha    : 1      # legend patch transparency
+legend.edgecolor     : 0     # background patch boundary color
+legend.fancybox      : False     # if True, use a rounded box for the
+legend.numpoints     : 3        # the number of marker points in the legend line
+legend.fontsize      : 9
+legend.handlelength  : 1.0      # the length of the legend lines
+
+figure.dpi       : 200      # figure dots per inch
+savefig.dpi         : 300   # figure dots per inch or 'figure'
